@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mokshika Arya — CV</title>
+  <meta name="description" content="CV of Mokshika Arya — MBA candidate">
+  <style>
+    :root{
+      --ink:#0f172a;      /* dark text */
+      --muted:#475569;    /* muted gray text */
+      --accent:#0b5ed7;   /* corporate blue */
+      --rule:#e2e8f0;     /* light gray divider */
+      --bg:#0f172a;       /* black page background */
+      --card:#ffffff;     /* white CV page */
+    }
+    *{box-sizing:border-box}
+    html,body{
+      margin:0;
+      padding:0;
+      background:var(--bg);
+      color:var(--ink);
+      font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,"Noto Sans",sans-serif;
+    }
+    main{
+      width:794px;             /* A4 width at 96 DPI */
+      min-height:1123px;       /* A4 height at 96 DPI */
+      margin:40px auto;
+      padding:48px 60px 72px;
+      background:var(--card);
+      border-radius:16px;      /* soft corners */
+      box-shadow:0 0 30px rgba(0,0,0,0.8);
+    }
+    h1,h2,h3{margin:0}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    /* Header */
+    header{margin-bottom:22px}
+    .name{font-size:34px;line-height:1.15;font-weight:800;letter-spacing:.2px}
+    .tag{color:var(--muted);font-weight:600;margin-top:6px}
+    .contact{margin-top:10px;color:var(--muted);font-size:14.5px}
+    .contact a{color:inherit}
+    .contact .sep{margin:0 10px;color:#94a3b8}
+    /* Section */
+    .section{padding:18px 0;border-top:2px solid var(--rule)}
+    .section:first-of-type{border-top:none;padding-top:6px}
+    .section h2{font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
+    /* Entries */
+    .item{margin:10px 0 14px}
+    .item .role{font-weight:700}
+    .item .org{font-weight:600}
+    .item .meta{color:var(--muted);font-size:14px;margin-top:2px}
+    ul{margin:8px 0 0 18px}
+    li{margin:6px 0}
+    /* Skills chips */
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .pill{border:1px solid var(--rule);padding:6px 10px;border-radius:10px;font-size:14px;color:var(--ink)}
+    /* Print tweaks */
+    @media print{
+      body{background:white}
+      main{
+        width:auto;
+        min-height:auto;
+        margin:0;
+        padding:0.6in;
+        box-shadow:none;
+        border-radius:0;
+      }
+      .section{border-top:1px solid #ddd}
+      a{text-decoration:none;color:inherit}
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1 class="name">Mokshika Arya</h1>
+      <div class="tag">Master of Business Administration</div>
+      <div class="contact">
+        New Delhi<span class="sep">•</span>
+        +91 9318324029<span class="sep">•</span>
+        <a href="mailto:mokshika7arya@gmail.com">mokshika7arya@gmail.com</a><span class="sep">•</span>
+        <a href="https://www.linkedin.com/in/mokshika-arya" target="_blank" rel="noopener">linkedin.com/in/mokshika-arya</a>
+      </div>
+    </header>
+
+    <section class="section" aria-label="Professional Summary">
+      <h2>Professional Summary</h2>
+      <p>
+        MBA candidate with hands-on exposure to Corporate Social Responsibility (CSR) and Corporate Communication during an internship at ONGC.
+        Proficient with Microsoft Office, SQL, ProjectLibre, Odoo and Canva. Adaptable, organised, and eager to contribute in Human Resources and
+        corporate functions.
+      </p>
+    </section>
+
+    <section class="section" aria-label="Experience and Internships">
+      <h2>Experience & Internships</h2>
+
+      <div class="item">
+        <div class="role">MBA — Practical Exposure</div>
+        <div class="org">Atal Bihari Vajpayee School of Management &amp; Entrepreneurship, JNU</div>
+        <div class="meta">2025 (Ongoing) • New Delhi</div>
+      </div>
+
+      <div class="item">
+        <div class="role">Corporate Social Responsibility &amp; Corporate Communication Intern</div>
+        <div class="org">Oil and Natural Gas Corporation (ONGC)</div>
+        <div class="meta">2024</div>
+        <ul>
+          <li>Contributed to CSR initiatives including NextGen Schools and Enable India; performed gap analysis and proposed CSR workflow optimisations.</li>
+          <li>Supported Corporate Communication workflows covering sponsorships and internal communications.</li>
+          <li>Received an Appreciation Letter for performance.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="role">Hotel Operations Intern</div>
+        <div class="org">Taj Palace, New Delhi</div>
+        <div class="meta">16-week internship</div>
+        <ul>
+          <li>Rotational exposure across front office, F&amp;B service, accommodation operations, and food production.</li>
+          <li>Handled guest interactions and documentation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Education">
+      <h2>Education</h2>
+      <div class="item">
+        <div class="role">MBA</div>
+        <div class="org">Atal Bihari Vajpayee School of Management &amp; Entrepreneurship, Jawaharlal Nehru University</div>
+        <div class="meta">Aug 2024 – Present • New Delhi</div>
+      </div>
+      <div class="item">
+        <div class="role">B.Sc. in Hospitality &amp; Hotel Administration</div>
+        <div class="org">Delhi Institute of Hotel Management &amp; Catering Technology</div>
+        <div class="meta">Nov 2021 – May 2024</div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Skills">
+      <h2>Skills</h2>
+
+      <div class="item">
+        <div class="role">Technical</div>
+        <div class="meta">Microsoft Excel, Microsoft PowerPoint, Microsoft Word, ProjectLibre, Canva, MySQL, SQL Server, SPSS, Odoo, SAP, Power BI, Tableau, OPERA, VICAS</div>
+        <div class="chips" aria-hidden="true">
+          <span class="pill">Excel</span>
+          <span class="pill">PowerPoint</span>
+          <span class="pill">Word</span>
+          <span class="pill">ProjectLibre</span>
+          <span class="pill">Canva</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">SQL Server</span>
+          <span class="pill">SPSS</span>
+          <span class="pill">Odoo</span>
+          <span class="pill">SAP</span>
+          <span class="pill">Power BI</span>
+          <span class="pill">Tableau</span>
+          <span class="pill">OPERA</span>
+          <span class="pill">VICAS</span>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="role">Soft</div>
+        <div class="meta">Effective communication, adaptability, creativity, organising skills, flexibility, learning orientation</div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Positions of Responsibility">
+      <h2>Positions of Responsibility</h2>
+      <ul>
+        <li>Student–Faculty Coordinator, JNU</li>
+        <li>Member, Training &amp; Placement Cell</li>
+        <li>Event Coordinator</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-label="Additional">
+      <h2>Additional</h2>
+      <ul>
+        <li>Online summer internship programme in psychology; workshop on sports psychology.</li>
+        <li>Prosocial Peer Moderator Programme: aggression management, media literacy, risk behaviour management, gender sensitivity.</li>
+      </ul>
+    </section>
+
+    <section class="section" aria-label="Languages">
+      <h2>Languages</h2>
+      <div class="item">
+        <div class="meta">English, Hindi</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
